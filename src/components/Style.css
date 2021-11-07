@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,*::before,*::after{ padding: 0;  margin: 0;  box-sizing: border-box; user-select: none}
+
+p,h1,h2,h3,h4,ul,li,a {list-style: none; text-decoration: none;  }
+
+input,
+select,
+option,
+.reg,
+.reg_h2,
+.reg_form,
+.reg_section_name_email_phone,
+.reg_label_h2,
+.reg_section,
+.reg_label,
+.reg_input,
+.reg_section_employment_radio_checkbox,
+.reg_section_employment,
+.reg_option,
+.reg_section_radio_radio,
+.reg_section_radio,
+.reg_label_radio,
+.reg_container_radio,
+.reg_box_radio,
+.reg_input_radio,
+.reg_box_text,
+.reg_section_checkbox,
+.reg_label_checkbox,
+.reg_container_checkbox,
+.reg_box_checkbox,
+.reg_box2_text,
+.reg_input_checkbox,
+.reg_box_textarea,
+.reg_label_textarea,
+.reg_label_textarea_h2,
+.reg_input_textarea,
+.reg_button,
+.reg_button_h2
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+input{ border: 0.1vh solid rgba(0,0,0, 0.6); }
+
+input:hover{  border: 0.1vh solid #faa500; }
+
+.reg{ width: 100vw;  height: 65vh; }
+
+.reg_h2{
+    width: 60vw;
+    height: 10vh;
+    color: rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg_form{
+    width: 60vw;
+    height: 55vh;
+    border: 0.1vh solid rgba(0,0,0, 0.6);
+}
+.reg_section_name_email_phone{
+    bottom: 3vh;
+    width: 60vw;
+    height: 10vh;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.reg_label_h2{
+    width: 15vw;
+    height: 5vh;
+    color: rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg_section{
+    grid-template-rows: repeat(2,1fr);
+    width: 15vw;
+    height: 10vh;
+}
+
+.reg_label,
+.reg_input{
+    width: 15vw;
+    height: 5vh;
+    color: rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg_input{ border: 0.1vh solid rgba(0,0,0, 0.6); }
+
+.reg_input:hover{ border: 0.1vh solid #faa500; }
+
+.reg_section_employment_radio_checkbox{
+   bottom: 2vh;
+    grid-template-columns: repeat(3,1fr);
+    width:  60vw;
+    height: 10vh;
+}
+
+select{
+    width: 15vw;
+    height: 5vh;
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(255,255,255, 1);
+    color: rgba(0,0,0, 0.6);
+}
+
+option{
+    width: 15vw;
+    height: 5vh;
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.reg_section_radio{ width: 5vw; height: 5vh; }
+
+.reg_label_radio{ width: 5vw;  height: 4vh; }
+
+.reg_container_radio{
+    grid-template-columns: repeat(2,1fr);
+    width: 10vw;
+    height: 6vh;
+}
+
+.reg_box_radio{
+    grid-template-rows: repeat(2,1fr);
+    width: 5vw;
+    height: 5vh;
+}
+.reg_input_radio{ width: 2vw; height: 2vh; }
+
+.reg_box_text{
+    width: 4.5vw;
+    height: 3.5vh;
+    color: rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg_section_checkbox{  width: 18vw;  height: 10vh; }
+
+.reg_label_checkbox{
+    top: 2vh;
+    width: 15vw;
+    height: 5vh;
+}
+
+.reg_container_checkbox{
+    grid-template-columns: repeat(3,1fr);
+    width: 15vw;
+    height: 10vh;
+}
+
+.reg_box_checkbox{
+    grid-template-rows: repeat(2,1fr);
+    width: 6vw;
+    height: 6vh;
+}
+
+.reg_box2_text{
+    color:  rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg_input_checkbox{
+    width: 2vw;
+    height: 2vh;
+    border: 0.1vh solid rgba(0,0,0, 0.6);
+}
+
+.reg_box_textarea{ width: 60vw;  height: 20vh; }
+
+.reg_label_textarea{  width: 30vw;  height: 5vh; }
+
+.reg_label_textarea_h2{
+    width: 30vw;
+    height: 10vh;
+    color:  rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg_input_textarea,
+textarea{
+    height: 15vh;
+    width: 50vw;
+    resize: none;
+    border: 0.1vh solid  rgba(0,0,0, 0.6);
+}
+
+textarea:hover{ border: 0.1vh solid  #faa500; }
+
+.reg_button{
+    top: 2.5vh;
+    border: 0.1vh solid  rgba(0,0,0, 0.6);
+    width: 12vw;
+    height: 5vh;
+    background-color: rgba(255,255,255, 1 );
+    cursor: pointer;
+}
+
+.reg_button:hover{ border: 0.1vh solid  #faa500;}
+
+.reg_button:hover .reg_button_h2{  color:   #faa500;}
+
+.reg_button_h2{
+    width: 10vw;
+    height: 3.5vh;
+    background-color: rgba(255,255,255, 1 );
+    color: rgba(0,0,0, 0.6);
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
